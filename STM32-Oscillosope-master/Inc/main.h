@@ -62,6 +62,12 @@ void Error_Handler(void);
 #define CS_GPIO_Port GPIOC
 #define AudioIn_Pin GPIO_PIN_7
 #define AudioIn_GPIO_Port GPIOA
+#define Value_Pin GPIO_PIN_2
+#define Value_GPIO_Port GPIOG
+#define Value_EXTI_IRQn EXTI2_IRQn
+#define Mode_Pin GPIO_PIN_3
+#define Mode_GPIO_Port GPIOG
+#define Mode_EXTI_IRQn EXTI3_IRQn
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
